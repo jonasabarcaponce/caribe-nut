@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sincronizando archivos 
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: ftp.avaspace.io
+        server: ftp.transferscaribenut.com
         server-dir: public_html/app/
-        username: avaspace
+        username: transf39
         password: ${{ secrets.ftp_password }}
