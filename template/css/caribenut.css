@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+:root {
+    --space-color-primary: #002F49;
+    --space-color-secondary: #1EE5DA;
+    --space-color-black: #000;
+    --space-color-white: #fff;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/* Caribe Experiencias */
+.caribe-experiencias {
+    background-color: var(--space-color-white);
+    padding: 45px 30px;
+    text-align: center;
+}
+.caribe-experiencias .container {
+    padding: 0;
+}
+.caribe-experiencias h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--space-color-primary);
+    text-align: center;
+}
+.caribe-experiencias p {
+    font-size: 22px;
+    color: var(--space-color-black);
+}
+.caribe-experiencias-promotion {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.caribe-experiencias h3 {
+    font-size: 22px;
+    color: var(--space-color-primary);
+}
+.caribe-experiencias-cta {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: var(--space-color-secondary);
+    background-color: var(--space-color-primary);
+    padding: 20px 0px;
+    display: block;
+    width: --webkit-fill-available;
+    border-radius: 20px;
+}
+
+/* Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) { 
+    .caribe-experiencias h2 {
+        font-size: 36px;
+        margin-bottom: 0px;
+    }
+    .caribe-experiencias p {
+        font-size: 26px;
+    }
+    .caribe-experiencias h3 {
+        font-size: 26px;
+    } 
+    .caribe-experiencias-cta {
+        font-size: 18px;
+    }
+    .caribe-experiencias {
+        padding: 90px 45px;
+    }
+}
+
+/* Caribe Nosotros */
+.caribe-nosotros {
+    background-color: var(--space-color-primary);
+}
+.caribe-nosotros.container-fluid .col-lg-6:last-of-type {
+    padding: 0;
+}
+.caribe-nosotros-logo {
+    width: 100%;
+    object-fit: cover;
+}
+.caribe-nosotros-text-column {
+    padding: 45px 30px;
+    text-align: center;
+}
+.caribe-nosotros-text-column h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--space-color-white);
+    margin-bottom: 20px;
+}
+.caribe-nosotros-text-column p {
+    font-size: 18px;
+    color: var(--space-color-white);
+}
+.caribe-nosotros-text-column span {
+    color: var(--space-color-secondary);
+}
+
+
+/* Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) { 
+    .caribe-nosotros-text-column {
+        padding: 90px 12%;
+    }
+    .caribe-nosotros-text-column h1 {
+        font-size: 36px;
+    }
+    .caribe-nosotros-text-column p {
+        font-size: 22px;
+    }
+}
+
+
+/* Caribe Somos */
+.caribe-somos {
+    background-color: var(--space-color-white);
+    padding: 45px 30px;
+    text-align: center;
+}
+.caribe-somos h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--space-color-primary);
+    text-align: center;
+}
+.caribe-somos p {
+    font-size: 18px;
+    color: var(--space-color-black);
+}
+.caribe-somos h3 {
+    font-size: 22px;
+    color: var(--space-color-primary);
+}
+
+
+/* Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) { 
+    .caribe-somos h2 {
+        font-size: 36px;
+        margin-bottom: 0px;
+    }
+    .caribe-somos p {
+        font-size: 22px;
+    }
+    .caribe-somos h3 {
+        font-size: 26px;
+    } 
+    .caribe-somos {
+        padding: 90px 45px;
+    }
+}
+
+
+/* Space Mas Buscados */
+.space-viajeros {
+    background: url('../img/fondo-viajeros.png');
+    background-size: cover;
+    background-position: center center;
+    padding: 90px 30px;
+    text-align: center;
+}
+.space-viajeros .container {
+    padding: 0;
+    border-top: 2px solid var(--space-color-primary);
+    border-bottom: 2px solid var(--space-color-primary);
+}
+.space-viajeros h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--space-color-primary);
+}
+.space-viajeros .card {
+    width: 400px;
+    height: 400px;
+    border-radius: 0;
+    border: none;
+}
+.space-viajeros .card .card-body {
+    padding: 0;
+}
+.space-viajeros .card .card-body img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) { 
+    .space-viajeros {
+        padding: 90px 60px;
+    }
+    .space-viajeros h2 {
+        font-size: 36px;
+    }
+}
+
+
+/* Space Preguntas */
+.space-preguntas {
+    padding: 90px 45px;
+    background-color: var(--space-color-primary);
+}
+.space-preguntas .container {
+    padding: 0;
+}
+.space-preguntas h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--space-color-white);
+    margin-bottom: 45px;
+    text-align: center;
+}
+.space-preguntas .accordion-item {
+    margin-bottom: 25px;
+    border-radius: 25px!important;
+}
+.space-preguntas .accordion-item .accordion-button {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--space-color-primary);
+    border-radius: 25px!important;
+}
+.space-preguntas .accordion-item .accordion-body {
+    font-size: 18px;
+    color: var(--space-color-black);
+    margin-top: -25px;
+    padding-top: 35px;
+    border-radius: 0 0 25px 25px;
+} 
+
+/* Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) { 
+    .space-preguntas h2 {
+        font-size: 36px;
+        margin-bottom: 90px;
+    }
+    .space-preguntas .accordion-item .accordion-button {
+        padding: 20px 40px;
+        font-size: 26px;
+    }
+    .space-preguntas .accordion-item .accordion-body {
+        font-size: 22px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+}
+
+/* Space Contacto */
+.space-contacto {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.space-contacto h2 {
+    font-size: 18px;
+    color: var(--space-color-primary);
+}
+.space-contacto-social {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.space-contacto-social li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.space-contacto-social li a {
+    text-decoration: none;
+    color: var(--space-color-text);
+}
+.space-contacto-social li a img{
+    width: 50px;
+    height: 50px;
+}
