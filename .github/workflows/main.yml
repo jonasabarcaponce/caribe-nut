@@ -12,6 +12,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: ftp.transferscaribenut.com
-        server-dir: public_html/app/
+        server-dir: public_html/
         username: transf39
         password: ${{ secrets.ftp_password }}
