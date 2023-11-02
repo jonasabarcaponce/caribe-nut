@@ -12,6 +12,47 @@ body {
     font-weight: 600;
 }
 
+/* Caribe Navegacion */
+.caribe-navegacion {
+    background-color: #fff;
+    padding: 30px 0px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 11px 91px -21px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 0px 11px 91px -21px rgba(0,0,0,0.68);
+    -moz-box-shadow: 0px 11px 91px -21px rgba(0,0,0,0.68);
+}
+.caribe-navegacion .caribe-logotipo {
+    max-width: 200px;
+}
+.caribe-navegacion-enlaces {
+    float: right;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.caribe-navegacion-enlaces li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.caribe-navegacion-enlaces li a {
+    text-decoration: none;
+    color: var(--space-color-text);
+}
+.caribe-navegacion-enlaces li a img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Caribe Motor */
+.caribe-motor {
+    background: url('../img/caribe-nut-fondo.png');
+}
+.caribe-motor .caribe-logotipo {
+    max-width: 200px;
+}
+
 /* Caribe Experiencias */
 .caribe-experiencias {
     background-color: var(--space-color-white);
@@ -253,29 +294,29 @@ body {
 }
 
 /* Space Contacto */
-.space-contacto {
+.caribe-contacto {
     text-transform: uppercase;
     font-size: 16px;
 }
-.space-contacto h2 {
+.caribe-contacto h2 {
     font-size: 18px;
     color: var(--space-color-primary);
 }
-.space-contacto-social {
+.caribe-contacto-social {
     list-style: none;
     text-align: center;
     padding: 0;
 }
-.space-contacto-social li {
+.caribe-contacto-social li {
     display: inline;
     margin-right: 10px;
     margin-left: 10px;
 }
-.space-contacto-social li a {
+.caribe-contacto-social li a {
     text-decoration: none;
     color: var(--space-color-text);
 }
-.space-contacto-social li a img{
+.caribe-contacto-social li a img{
     width: 50px;
     height: 50px;
 }
