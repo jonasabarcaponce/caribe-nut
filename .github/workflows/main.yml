@@ -1,0 +1,17 @@
+on: push
+name: 🚀 Enviar a producción 
+jobs:
+  web-deploy:
+    name: 🎉 Enviar
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Obteniendo cambios
+      uses: actions/checkout@v3
+    
+    - name: 📂 Sincronizando archivos 
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: ftp.avaspace.io
+        server-dir: public_html/app/
+        username: avaspace
+        password: ${{ secrets.ftp_password }}
